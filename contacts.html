@@ -4,13 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>contacts</title>
   </head>
-  <body></body>
+  <body>
+    <header class=""></header>
+
+    <nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="#">Olha Melska</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="./index.html">About</a>
+          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link active" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <main class="mt-5 mb-5 mr-5 ml-5">
+      <form>
+        <div class="row">
+          <div class="col">
+            <label>First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your first name"
+            />
+          </div>
+
+          <div class="col">
+            <label>Last Name</label>
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputEmail"
+            placeholder="example@gmail.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+
+      <aside>
+        <p>Follow me on a Social Media:</p>
+        <a href="https://www.facebook.com/olyamelska" target="_blank">
+          <img
+            src="./assets/Images/fblogo.jpg"
+            alt="facebook logo"
+            class="socialMedia"
+          />
+        </a>
+
+        <a href="https://www.instagram.com/olyamelska/?hl=en" target="_blank">
+          <img
+            src="assets/Images/instaicon.jpg"
+            alt="instagram logo"
+            class="socialMedia"
+          />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/olha-melska-685553158/"
+          target="_blank"
+        >
+          <img
+            src="./assets/Images/inlogo.jpg"
+            alt="linkedin logo"
+            class="socialMedia"
+          />
+        </a>
+      </aside>
+    </main>
+
+    <footer class="d-flex p-2 bd-highlight justify-content-center ">
+      <div class="d-flex align-self-center bg-light">copyright&copy;2019</div>
+    </footer>
+  </body>
 </html>

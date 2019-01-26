@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b4e51;
+}
+
+header {
+    background: url("../Images/back.jpg");
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: cover;
+    height: 160px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.socialMedia {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    background: url("../Images/back.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center bottom;
+    height: 160px;
+}
